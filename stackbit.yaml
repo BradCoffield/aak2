@@ -1698,5 +1698,5 @@ models:
     type: data
     label: publicationslist
     fields:
-      - name: ''
+      - name: Title
         type: string
