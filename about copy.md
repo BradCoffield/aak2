@@ -1,5 +1,6 @@
 ---
 title: About Copy
+permalink: /about-copy/
 seo:
   title: About Copy
   description: This is the about page
