@@ -1694,3 +1694,6 @@ models:
             - type: boolean
               name: relativeUrl
               label: Relative Url
+  publicationslist:
+    type: data
+    label: publicationslist
