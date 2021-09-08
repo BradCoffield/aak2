@@ -1,0 +1,15 @@
+<section class="publications-list">
+  <!-- <h2>{{ include.section.title }}</h2>
+  <div>{{ include.section.subtitle }}</div> -->
+  <div class="actions grdGrid -middle -center">
+    
+    {%- for publication in include.section.publications -%}
+       <p class="hindent publication">
+  <span
+    >&ldquo;<a href="{{publication.url}}}">{{publication.title}}.</a
+    >&quot; <em>{{publication.pubTitle}}</em> ({{publication.date}}). {{publication.format}}.</span
+  >
+</p>
+    {%- endfor -%}
+  </div>
+</section>
