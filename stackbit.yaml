@@ -1741,3 +1741,7 @@ models:
             - type: boolean
               name: relativeUrl
               label: Relative Url
+  publications:
+    type: page
+    label: publications
+    layout: publications
