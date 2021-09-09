@@ -468,7 +468,7 @@ models:
         type: string
         label: Title
         required: true
-      - name: Publications
+      - name: publications
         type: list
         items:
           type: model
