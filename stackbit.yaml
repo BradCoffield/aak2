@@ -1758,3 +1758,4 @@ models:
           type: model
           models:
             - publications_list_section
+            - publication
