@@ -1714,3 +1714,7 @@ models:
         items:
           type: string
         required: true
+        label: Publications
+  publication:
+    type: object
+    label: publication
