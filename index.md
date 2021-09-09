@@ -22,13 +22,6 @@ sections:
     background_image_repeat: repeat
     background_image_size: contain
     background_image_opacity: 8
-  - type: publications_list
-    publications:
-      - title: Publication Title
-        url: https://www.google.com
-        pubTitle: Publication Title
-        date: 08/08/2008
-        format: Print
   - type: features_section
     title: My Work
     subtitle: What I do
@@ -131,25 +124,6 @@ sections:
     background_image_repeat: repeat
     background_image_size: contain
     background_image_opacity: 8
-  - title: lorem-ipsum
-    subtitle: lorem-ipsum
-    actions: []
-    grid_items: []
-    grid_cols: three
-    grid_gap_vert: small
-    grid_gap_horiz: small
-    enable_cards: false
-    align: center
-    padding_top: medium
-    padding_bottom: medium
-    has_border: false
-    background_color: none
-    background_image_opacity: 0
-    background_image_size: cover
-    background_image_position: center center
-    background_image_repeat: no-repeat
-    type: grid_section
-    background_image: images/feature-1.svg
 seo:
   title: Stackbit Personal Theme
   description: The preview of the Personal theme

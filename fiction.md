@@ -1,8 +1,5 @@
 ---
 title: Fiction
-permalink: /creative-writing/fiction/
-sections: 
-  - type: publications_list
 seo:
   title: About Copy
   description: This is the about page
