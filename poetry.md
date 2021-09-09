@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: Poetry
 sections: []
 layout: publications
 ---
