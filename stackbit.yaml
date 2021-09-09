@@ -1753,3 +1753,4 @@ models:
         required: true
       - name: sections
         type: string
+        label: Sections
