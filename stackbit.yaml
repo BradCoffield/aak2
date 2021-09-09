@@ -1703,4 +1703,7 @@ models:
         label: Title
   publications_list_section:
     type: object
-    label: publications_list
+    label: Publications List Section
+    fields:
+      - name: ''
+        type: string
