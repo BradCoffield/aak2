@@ -1744,3 +1744,4 @@ models:
           - Web
         required: true
         description: Print or Web
+        label: Format
