@@ -1729,3 +1729,5 @@ models:
         type: string
         label: URL
         description: Optional. Used to link to online pub when available.
+      - name: ''
+        type: string
