@@ -1755,4 +1755,5 @@ models:
         type: list
         label: Sections
         items:
-          type: string
+          type: model
+          models: []
