@@ -1756,3 +1756,4 @@ models:
         label: Sections
         models:
           - action
+          - blog_feed_section
