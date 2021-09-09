@@ -1752,8 +1752,7 @@ models:
         label: Title
         required: true
       - name: sections
-        type: model
+        type: list
         label: Sections
-        models:
-          - publications_list_section
-          - publication
+        items:
+          type: string
