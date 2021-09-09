@@ -1713,3 +1713,4 @@ models:
         type: list
         items:
           type: string
+        required: true
