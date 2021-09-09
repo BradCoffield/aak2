@@ -1738,4 +1738,7 @@ models:
         label: Date of publication
         required: true
       - name: Format
-        type: string
+        type: enum
+        options:
+          - label: ''
+            value: ''
