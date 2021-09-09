@@ -1735,3 +1735,5 @@ models:
         required: true
       - name: date
         type: string
+        label: Date of publication
+        required: true
