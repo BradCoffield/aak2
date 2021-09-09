@@ -454,11 +454,58 @@ models:
             - blog_feed_section
             - cta_section
             - form_section
+            - publications_list_section
       - type: model
         name: seo
         models:
           - stackbit_page_meta
         label: Seo
+  publications_list_section:
+    type: object
+    label: Publications List Section
+    fields:
+      - name: title
+        type: string
+        label: Title
+        required: true
+      - name: publications
+        type: list
+        items:
+          type: model
+          models:
+            - publication
+        required: true
+        label: Publications
+  publication:
+    type: object
+    label: Publication
+    description: Individual Publication
+    fields:
+      - name: title
+        type: string
+        label: Title
+        required: true
+        description: Title of the piece.
+      - name: url
+        type: string
+        label: URL
+        description: Optional. Used to link to online pub when available.
+      - name: pubTitle
+        type: string
+        label: Title of Publication
+        required: true
+      - name: date
+        type: string
+        label: Date of publication
+        required: true
+      - name: format
+        type: enum
+        options:
+          - Print
+          - Web
+        required: true
+        description: Print or Web
+        label: Format
   hero_section:
     type: object
     label: Hero section
@@ -1694,56 +1741,3 @@ models:
             - type: boolean
               name: relativeUrl
               label: Relative Url
-  publicationslist:
-    type: data
-    label: publicationslist
-    fields:
-      - name: Title
-        type: string
-        label: Title
-  publications_list_section:
-    type: object
-    label: Publications List Section
-    fields:
-      - name: Title
-        type: string
-        label: Title
-        required: true
-      - name: Publications
-        type: list
-        items:
-          type: model
-          models:
-            - publication
-        required: true
-        label: Publications
-  publication:
-    type: object
-    label: Publication
-    description: Individual Publication
-    fields:
-      - name: title
-        type: string
-        label: Title
-        required: true
-        description: Title of the piece.
-      - name: url
-        type: string
-        label: URL
-        description: Optional. Used to link to online pub when available.
-      - name: pubTitle
-        type: string
-        label: Title of Publication
-        required: true
-      - name: date
-        type: string
-        label: Date of publication
-        required: true
-      - name: Format
-        type: enum
-        options:
-          - Print
-          - Web
-        required: true
-        description: Print or Web
-        label: Format

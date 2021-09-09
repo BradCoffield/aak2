@@ -77,6 +77,27 @@ sections:
         image_alt: Feature 3 illustration
         media_position: right
         media_width: sixty
+      - title: lorem-ipsum
+        subtitle: lorem-ipsum
+        content: >-
+          ## Lorem ipsum
+
+
+          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+          - Lorem ipsum
+
+          - dolor sit amet
+        actions: []
+        image_alt: lorem-ipsum
+        video_embed_html: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        media_position: top
+        media_width: fifty
+        align: left
     feature_padding_vert: large
     align: center
     background_color: none
@@ -124,6 +145,18 @@ sections:
     background_image_repeat: repeat
     background_image_size: contain
     background_image_opacity: 8
+  - title: Fiction
+    publications:
+      - title: EYYY TITLE
+        pubTitle: lorem-ipsum
+        date: lorem-ipsum
+        format: Print
+      - title: lorem-ipsum
+        url: lorem-ipsum
+        pubTitle: lorem-ipsum
+        date: lorem-ipsum
+        format: Print
+    type: publications_list_section
 seo:
   title: Stackbit Personal Theme
   description: The preview of the Personal theme
