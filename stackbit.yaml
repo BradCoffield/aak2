@@ -498,7 +498,7 @@ models:
         type: string
         label: Date of publication
         required: true
-      - name: Format
+      - name: format
         type: enum
         options:
           - Print
