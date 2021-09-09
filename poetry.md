@@ -6,7 +6,7 @@ sections:
       - title: aaaaa
         url: 'https://www.google.com'
         pubTitle: dddddd
-        date: Feb. 02. 200
+        date: Feb. 02. 2020
         format: Print
         type: publication
     type: publications_list_section
