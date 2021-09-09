@@ -1712,7 +1712,8 @@ models:
       - name: Publications
         type: list
         items:
-          type: string
+          type: model
+          models: []
         required: true
         label: Publications
   publication:
