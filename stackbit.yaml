@@ -464,7 +464,7 @@ models:
     type: object
     label: Publications List Section
     fields:
-      - name: Title
+      - name: title
         type: string
         label: Title
         required: true
@@ -505,7 +505,7 @@ models:
           - Web
         required: true
         description: Print or Web
-        label: Format      
+        label: Format
   hero_section:
     type: object
     label: Hero section
@@ -1741,5 +1741,3 @@ models:
             - type: boolean
               name: relativeUrl
               label: Relative Url
-
-
