@@ -1747,5 +1747,5 @@ models:
     layout: publications
     description: Pages to list out publications
     fields:
-      - name: ''
+      - name: title
         type: string
