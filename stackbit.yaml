@@ -1745,3 +1745,4 @@ models:
     type: page
     label: Publications
     layout: publications
+    description: Pages to list out publications
