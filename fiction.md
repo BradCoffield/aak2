@@ -1,6 +1,6 @@
 ---
 title: Fiction
-permalink: /creative-writing/fiction/
+ 
 sections: 
   - type: publications_list
 seo:
