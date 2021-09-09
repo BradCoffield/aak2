@@ -1733,5 +1733,5 @@ models:
         type: string
         label: Title of Publication
         required: true
-      - name: ''
+      - name: date
         type: string
