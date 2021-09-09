@@ -1746,3 +1746,6 @@ models:
     label: Publications
     layout: publications
     description: Pages to list out publications
+    fields:
+      - name: ''
+        type: string
