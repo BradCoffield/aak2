@@ -151,6 +151,11 @@ sections:
         pubTitle: lorem-ipsum
         date: lorem-ipsum
         format: Print
+      - title: lorem-ipsum
+        url: lorem-ipsum
+        pubTitle: lorem-ipsum
+        date: lorem-ipsum
+        format: Print
     type: publications_list_section
 seo:
   title: Stackbit Personal Theme
