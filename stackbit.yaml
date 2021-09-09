@@ -1756,4 +1756,5 @@ models:
         label: Sections
         items:
           type: model
-          models: []
+          models:
+            - publications_list_section
