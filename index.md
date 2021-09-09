@@ -2,10 +2,9 @@
 title: Home
 sections:
   - type: hero_section
-    title: 'Hi, I’m Alyvia. I help my clients succeed online.'
+    title: 'Hi, I’m Ashley.'
     subtitle: >-
-      I will handle your website design and production, social media accounts
-      and digital advertisements for you, at an affordable price.
+      I'm a creative writing professor and freelance editor living in Billings, MT.
     actions:
       - label: Contact Me
         url: /contact
@@ -145,18 +144,8 @@ sections:
     background_image_repeat: repeat
     background_image_size: contain
     background_image_opacity: 8
-  - title: Fiction
-    publications:
-      - title: EYYY TITLE
-        pubTitle: lorem-ipsum
-        date: lorem-ipsum
-        format: Print
-      - title: lorem-ipsum
-        url: lorem-ipsum
-        pubTitle: lorem-ipsum
-        date: lorem-ipsum
-        format: Print
-    type: publications_list_section
+  
+    
 seo:
   title: Stackbit Personal Theme
   description: The preview of the Personal theme
