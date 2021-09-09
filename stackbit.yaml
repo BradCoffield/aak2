@@ -1720,5 +1720,5 @@ models:
     label: Publication
     description: Individual Publication
     fields:
-      - name: ''
+      - name: title
         type: string
