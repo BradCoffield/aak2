@@ -22,13 +22,6 @@ sections:
     background_image_repeat: repeat
     background_image_size: contain
     background_image_opacity: 8
-  - type: publications_list
-    publications:
-      - title: Publication Title
-        url: 'https://www.google.com'
-        pubTitle: Publication Title
-        date: 08/08/2008
-        format: Print
   - type: features_section
     title: My Work
     subtitle: What I do
