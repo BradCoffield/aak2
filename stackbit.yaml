@@ -1754,4 +1754,5 @@ models:
       - name: sections
         type: model
         label: Sections
-        models: []
+        models:
+          - publications_list_section
