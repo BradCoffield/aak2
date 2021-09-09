@@ -7,7 +7,7 @@ sections:
         url: 'https://www.google.com'
         pubTitle: dddddd
         date: Feb. 02. 2020
-        format: Print
+        format: Web
         type: publication
     type: publications_list_section
 layout: publications
