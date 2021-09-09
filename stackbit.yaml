@@ -1743,3 +1743,4 @@ models:
           - Print
           - Web
         required: true
+        description: Print or Web
