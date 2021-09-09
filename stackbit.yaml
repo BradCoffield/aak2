@@ -1741,7 +1741,3 @@ models:
             - type: boolean
               name: relativeUrl
               label: Relative Url
-  fiction:
-    type: page
-    label: fiction
-    layout: fiction
