@@ -9,13 +9,13 @@ sections:
       - title: EYYY TITLEee
         pubTitle: lorem-ipsum
         date: lorem-ipsum
-        format: Print
+        format: Web
         url: 'https://www.google.com'
       - title: lorem-ipsum
         url: lorem-ipsum
         pubTitle: lorem-ipsum
         date: lorem-ipsum
-        format: Web
+        format: Print
 seo:
   title: Fiction
   description: A listing of Ashley Kunsa's fiction publications
