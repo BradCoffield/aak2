@@ -5,7 +5,7 @@ sections:
     publications:
       - title: aaaaa
         url: 'https://www.google.com'
-        pubTitle: lorem-ipsum
+        pubTitle: dddddd
         date: lorem-ipsum
         format: Print
         type: publication
