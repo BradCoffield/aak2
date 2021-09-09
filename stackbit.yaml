@@ -1741,3 +1741,21 @@ models:
             - type: boolean
               name: relativeUrl
               label: Relative Url
+  publications:
+    type: page
+    label: Publications
+    layout: publications
+    description: Pages to list out publications
+    fields:
+      - name: title
+        type: string
+        label: Title
+        required: true
+      - name: sections
+        type: list
+        label: Sections
+        items:
+          type: model
+          models:
+            - publications_list_section
+            - publication
