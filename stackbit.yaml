@@ -1740,4 +1740,7 @@ models:
       - name: Format
         type: enum
         options:
-          - Print
+          - label: Print
+            value: Print
+          - label: ''
+            value: ''
