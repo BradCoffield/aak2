@@ -124,7 +124,7 @@ sections:
     background_image_repeat: repeat
     background_image_size: contain
     background_image_opacity: 8
-  - Title: lorem-ipsum
+  - Title: Fiction
     Publications: []
     type: publications_list_section
 seo:
