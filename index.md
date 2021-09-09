@@ -127,7 +127,6 @@ sections:
   - Title: Fiction
     Publications:
       - title: EYYY TITLE
-        url: lorem-ipsum
         pubTitle: lorem-ipsum
         date: lorem-ipsum
         Format: Print
