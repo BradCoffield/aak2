@@ -1700,3 +1700,7 @@ models:
     fields:
       - name: Title
         type: string
+        label: Title
+  publications_list:
+    type: object
+    label: publications_list
