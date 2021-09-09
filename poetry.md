@@ -1,6 +1,9 @@
 ---
 title: Poetry
-sections: []
+sections:
+  - title: lorem-ipsum
+    publications: []
+    type: publications_list_section
 layout: publications
 ---
 ## Lorem ipsum
