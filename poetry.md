@@ -2,7 +2,13 @@
 title: Poetry
 sections:
   - title: lorem-ipsum
-    publications: []
+    publications:
+      - title: lorem-ipsum
+        url: lorem-ipsum
+        pubTitle: lorem-ipsum
+        date: lorem-ipsum
+        format: Print
+        type: publication
     type: publications_list_section
 layout: publications
 ---
