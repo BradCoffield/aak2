@@ -1701,6 +1701,6 @@ models:
       - name: Title
         type: string
         label: Title
-  publications_list:
+  publications_list_section:
     type: object
     label: publications_list
