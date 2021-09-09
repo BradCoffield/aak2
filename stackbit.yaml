@@ -1752,5 +1752,6 @@ models:
         label: Title
         required: true
       - name: sections
-        type: string
+        type: model
         label: Sections
+        models: []
