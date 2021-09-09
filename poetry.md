@@ -6,7 +6,7 @@ sections:
       - title: aaaaa
         url: 'https://www.google.com'
         pubTitle: dddddd
-        date: lorem-ipsum
+        date: Feb. 02. 200
         format: Print
         type: publication
     type: publications_list_section
