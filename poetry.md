@@ -4,7 +4,7 @@ sections:
   - title: lorem-ipsum
     publications:
       - title: lorem-ipsum
-        url: lorem-ipsum
+        url: 'https://www.google.com'
         pubTitle: lorem-ipsum
         date: lorem-ipsum
         format: Print
