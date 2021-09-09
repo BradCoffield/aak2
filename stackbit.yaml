@@ -1742,3 +1742,4 @@ models:
         options:
           - Print
           - Web
+        required: true
