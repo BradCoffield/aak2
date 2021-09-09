@@ -1,8 +1,8 @@
 ---
 title: Fiction Publications
 header_image: /images/about.jpg
-header_image_alt: 
-sections: 
+header_image_alt: null
+sections:
   - type: publications_list_section
     title: Fiction
     publications:
@@ -10,6 +10,7 @@ sections:
         pubTitle: lorem-ipsum
         date: lorem-ipsum
         format: Print
+        url: 'https://www.google.com'
       - title: lorem-ipsum
         url: lorem-ipsum
         pubTitle: lorem-ipsum
@@ -32,7 +33,6 @@ seo:
       value: images/about.jpg
       keyName: property
       relativeUrl: true
- 
 layout: publications
 ---
 
