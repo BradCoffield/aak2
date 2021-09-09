@@ -1743,5 +1743,5 @@ models:
               label: Relative Url
   publications:
     type: page
-    label: publications
+    label: Publications
     layout: publications
