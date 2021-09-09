@@ -1,12 +1,12 @@
 ---
 title: Home
 sections:
-  - Title: Fiction
-    Publications:
+  - title: Fiction
+    publications:
       - title: EYYY TITLE
         pubTitle: lorem-ipsum
         date: lorem-ipsum
-        Format: Print
+        format: Print
     type: publications_list_section
   - type: hero_section
     title: 'Hi, I’m Alyvia. I help my clients succeed online.'
