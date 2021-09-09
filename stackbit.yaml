@@ -1710,4 +1710,6 @@ models:
         label: Title
         required: true
       - name: Publications
-        type: string
+        type: list
+        items:
+          type: string
