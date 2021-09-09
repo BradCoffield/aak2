@@ -1705,5 +1705,5 @@ models:
     type: object
     label: Publications List Section
     fields:
-      - name: ''
+      - name: Title
         type: string
