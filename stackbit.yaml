@@ -1737,3 +1737,5 @@ models:
         type: string
         label: Date of publication
         required: true
+      - name: ''
+        type: string
