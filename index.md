@@ -125,7 +125,12 @@ sections:
     background_image_size: contain
     background_image_opacity: 8
   - Title: Fiction
-    Publications: []
+    Publications:
+      - title: lorem-ipsum
+        url: lorem-ipsum
+        pubTitle: lorem-ipsum
+        date: lorem-ipsum
+        Format: Print
     type: publications_list_section
 seo:
   title: Stackbit Personal Theme
