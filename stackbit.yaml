@@ -1713,7 +1713,8 @@ models:
         type: list
         items:
           type: model
-          models: []
+          models:
+            - publication
         required: true
         label: Publications
   publication:
