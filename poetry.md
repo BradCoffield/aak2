@@ -3,7 +3,7 @@ title: Poetry
 sections:
   - title: lorem-ipsum
     publications:
-      - title: lorem-ipsum
+      - title: aaaaa
         url: 'https://www.google.com'
         pubTitle: lorem-ipsum
         date: lorem-ipsum
