@@ -14,7 +14,7 @@ sections:
         url: lorem-ipsum
         pubTitle: lorem-ipsum
         date: lorem-ipsum
-        format: Print
+        format: Web
 seo:
   title: Fiction
   description: A listing of Ashley Kunsa's fiction publications
@@ -35,17 +35,16 @@ seo:
  
 layout: publications
 ---
-<!-- 
+
+<!--
 ![A woman using a laptop](/images/about.jpg)
 
-Blah blah blah about fiction. Proident eiusmod culpa exercitation excepteur labore ex veniam nulla. 
+Blah blah blah about fiction. Proident eiusmod culpa exercitation excepteur labore ex veniam nulla.
 
 ## Publications
 
 You can browse my fiction publications below or download my entire [CV](#).
- 
+
 * "[Drowning](https://forgelitmag.com/2018/04/09/drowning/)." _Forge Literary Magazine_ (April 9, 2018). Web.
 * "Crossroads." *Sonder Review* 10 (Winter 2018): 10-11. Print.
 * "Only Breath." *Sonder Review* 10 (Winter 2018): 12. Print.  -->
-
-
