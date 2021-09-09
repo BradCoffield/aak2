@@ -1,6 +1,13 @@
 ---
 title: Home
 sections:
+  - Title: Fiction
+    Publications:
+      - title: EYYY TITLE
+        pubTitle: lorem-ipsum
+        date: lorem-ipsum
+        Format: Print
+    type: publications_list_section
   - type: hero_section
     title: 'Hi, I’m Alyvia. I help my clients succeed online.'
     subtitle: >-
@@ -124,13 +131,6 @@ sections:
     background_image_repeat: repeat
     background_image_size: contain
     background_image_opacity: 8
-  - Title: Fiction
-    Publications:
-      - title: EYYY TITLE
-        pubTitle: lorem-ipsum
-        date: lorem-ipsum
-        Format: Print
-    type: publications_list_section
 seo:
   title: Stackbit Personal Theme
   description: The preview of the Personal theme
