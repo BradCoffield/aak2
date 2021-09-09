@@ -1717,4 +1717,4 @@ models:
         label: Publications
   publication:
     type: object
-    label: publication
+    label: Publication
