@@ -1731,3 +1731,5 @@ models:
         description: Optional. Used to link to online pub when available.
       - name: pubTitle
         type: string
+        label: Title of Publication
+        required: true
