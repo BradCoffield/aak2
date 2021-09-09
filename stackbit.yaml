@@ -1751,5 +1751,5 @@ models:
         type: string
         label: Title
         required: true
-      - name: ''
+      - name: sections
         type: string
