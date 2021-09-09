@@ -126,7 +126,7 @@ sections:
     background_image_opacity: 8
   - Title: Fiction
     Publications:
-      - title: lorem-ipsum
+      - title: EYYY TITLE
         url: lorem-ipsum
         pubTitle: lorem-ipsum
         date: lorem-ipsum
