@@ -1782,7 +1782,5 @@ models:
       - name: format
         type: enum
         options:
-          - label: Print
-            value: Print
-          - label: ''
-            value: ''
+          - Print
+          - Web
