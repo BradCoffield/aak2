@@ -1772,5 +1772,5 @@ models:
       - name: url
         type: string
         label: URL
-      - name: ''
+      - name: pubTitle
         type: string
