@@ -1769,5 +1769,5 @@ models:
         type: string
         label: Title
         required: true
-      - name: ''
+      - name: url
         type: string
