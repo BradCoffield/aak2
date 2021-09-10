@@ -1,5 +1,5 @@
 ---
-title: Poetry
+title: Poetry Publications
 sections:
   - title: lorem-ipsum
     publications:
