@@ -1780,4 +1780,7 @@ models:
         type: string
         label: Date
       - name: format
-        type: string
+        type: enum
+        options:
+          - label: ''
+            value: ''
