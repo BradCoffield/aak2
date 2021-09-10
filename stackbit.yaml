@@ -1779,5 +1779,5 @@ models:
       - name: date
         type: string
         label: Date
-      - name: ''
+      - name: format
         type: string
