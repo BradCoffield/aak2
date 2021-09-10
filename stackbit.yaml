@@ -1785,3 +1785,4 @@ models:
           - Print
           - Web
         required: true
+        description: Web or Print
