@@ -1771,3 +1771,4 @@ models:
         required: true
       - name: url
         type: string
+        label: URL
