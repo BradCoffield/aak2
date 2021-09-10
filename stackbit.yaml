@@ -1767,3 +1767,5 @@ models:
     fields:
       - name: title
         type: string
+        label: Title
+        required: true
