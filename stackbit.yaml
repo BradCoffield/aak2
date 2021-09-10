@@ -1762,3 +1762,4 @@ models:
   fictionpublications:
     type: data
     label: Fiction Publications
+    description: JSON of fiction publications
