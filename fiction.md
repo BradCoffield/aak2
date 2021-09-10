@@ -2,6 +2,7 @@
 title: Fiction Publications
 header_image: /images/about.jpg
 header_image_alt: null
+dataTitle: fiction
 sections:
   - type: publications_list_section
     title: Fiction

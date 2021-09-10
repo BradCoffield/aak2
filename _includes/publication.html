@@ -1,9 +1,11 @@
-   {% if publication.url == undefined %} <p class="hindent publication">  <span
+ 
+ 
+ {% if publication.format == "Web" %} <p class="hindent publication">  <span
     >&ldquo;<a href="{{publication.url}}">{{publication.title}}.</a
     >&quot; <em>{{publication.pubTitle}}</em> ({{publication.date}}). {{publication.format}}.</span
   ></p>{% endif %}
 
-{% if !publication.url%} <p class="hindent publication">  <span
+{% if publication.format == "Print" %} <p class="hindent publication">  <span
     >&ldquo;{{publication.title}}.</a
     >&quot; <em>{{publication.pubTitle}}</em> ({{publication.date}}). {{publication.format}}.</span
   ></p>{% endif %}
