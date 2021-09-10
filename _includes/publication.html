@@ -1,18 +1,17 @@
- 
- 
- {% if publication.format == "Web" %} <p class="hindent publication">  <span
- 
-    >&ldquo;<a target="_blank" href="{{publication.url}}">{{publication.title}}.</a
-    >&quot; <em>{{publication.pubTitle}}</em> {{publication.volumeIssue}} ({{publication.date}}). {{publication.format}}.</span
-  ></p>{% endif %}
+{%if publication.title != ""%}
 
- 
-{% if publication.format == "Print" %} <p class="hindent publication">  <span
- 
-    >&ldquo;{{publication.title}}.</a
-    >&quot; <em>{{publication.pubTitle}}.</em> {{publication.volumeIssue}} ({{publication.date}}). {%if publication.pageRange != ""%}{{publication.pageRange}}.{%endif%} {{publication.format}}.</span
-  ></p>{% endif %}
-
-
-
-
+<p class="hindent publication">
+  <span>
+    <!-- So, if it's print then just do the name. If it's forthcoming it won't have a url even if it's web so do that. Then check if the URL is empty, as the case might be if it is a defunct online journal. Then lastly if it's web, add hyperlink stuff -->
+    {%if publication.format == "Print"%}&ldquo;{{publication.title}}.&quot; {%elsif
+    publication.forthcoming == true%}&ldquo;{{publication.title}}.&quot; 
+    {%elsif publication.url == ""%}&ldquo;{{publication.title}}.&quot;
+    {% elsif
+    publication.format == "Web" %}<a target="_blank" href="{{publication.url}}"
+      >&ldquo;{{publication.title}}.&quot;</a
+    >{% endif %}
+    <!-- end title -->
+    <em>{{publication.pubTitle}}</em> {{publication.volumeIssue}} ({{publication.date}}). {{publication.format}}. {%if publication.forthcoming == true%}Forthcoming.{%endif%} 
+  </span>
+</p>
+{%endif%} 

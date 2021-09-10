@@ -1,20 +1,26 @@
 ---
 title: Poetry Publications
+permalink: /creative-writing/poetry
 sections:
-  - title: lorem-ipsum
-    publications:
-      - title: aaaaa
-        url: 'https://www.google.com'
-        pubTitle: dddddd
-        date: Feb. 02. 2020
-        format: Web
-        type: publication
-    type: publications_list_section
+  - type: publications_list_section
+    title: Poetry
+dataTitle: poetry
 layout: publications
+seo:
+  title: Poetry
+  description: A listing of Ashley Kunsa's poetry publications
+  extra:
+    - name: 'og:type'
+      value: website
+      keyName: property
+    - name: 'og:title'
+      value: About
+      keyName: property
+    - name: 'og:description'
+      value: This is the about page
+      keyName: property
+    - name: 'og:image'
+      value: images/about.jpg
+      keyName: property
+      relativeUrl: true
 ---
-## Lorem ipsum
-
-Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-- Lorem ipsum
-- dolor sit amet

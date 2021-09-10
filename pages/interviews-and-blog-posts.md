@@ -1,17 +1,14 @@
 ---
-title: Fiction Publications
-header_image: /images/about.jpg
-header_image_alt: null
-permalink: /creative-writing/fiction
-dataTitle: fiction
+title: Interviews and Blog Posts
+permalink: /creative-writing/interviews-and-blog-posts
 sections:
   - type: publications_list_section
-    title: Fiction
- 
- 
+    title: Interviews and Blog Posts
+dataTitle: interviews_and_blog_posts
+layout: publications
 seo:
-  title: Fiction
-  description: A listing of Ashley Kunsa's fiction publications
+  title: Interviews and Blog Posts
+  description: A listing of Ashley Kunsa's interviews and other publications
   extra:
     - name: 'og:type'
       value: website
@@ -26,6 +23,4 @@ seo:
       value: images/about.jpg
       keyName: property
       relativeUrl: true
-layout: publications
 ---
- 
