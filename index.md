@@ -9,8 +9,9 @@ sections:
       - label: Contact Me
         url: /contact
         style: primary
-    image: images/hero.png
+    image: images/20210818_175103.jpg
     image_alt: A smiling woman
+    imageID: homepageImage
     media_position: right
     media_width: fifty
     align: left

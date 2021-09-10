@@ -52,7 +52,7 @@
 				{% if video_embed_html_is_not_empty %}
 					{{ section.video_embed_html }}
 				{% else %}
-					<img src="{{ section.image | relative_url }}" alt="{{ section.image_alt }}" class="{% if align_x == 'center' %}mx-auto{% endif %}{% if align_x == 'right' %} ml-auto{% endif %}" />
+					<img src="{{ section.image | relative_url }}" alt="{{ section.image_alt }}" id="{% if section.imageID %}{{section.imageID}}{%endif%}" class="{% if align_x == 'center' %}mx-auto{% endif %}{% if align_x == 'right' %} ml-auto{% endif %}" />
 				{% endif %}
 			</div>
 			{% endif %}
