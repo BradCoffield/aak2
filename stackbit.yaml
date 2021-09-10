@@ -1774,3 +1774,5 @@ models:
         label: URL
       - name: pubTitle
         type: string
+        label: Publication Title
+        required: true
