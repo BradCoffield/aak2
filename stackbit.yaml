@@ -1782,5 +1782,4 @@ models:
       - name: format
         type: enum
         options:
-          - label: ''
-            value: ''
+          - Print
