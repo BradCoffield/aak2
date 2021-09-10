@@ -1759,3 +1759,6 @@ models:
           models:
             - publications_list_section
             - publication
+  fictionpublications:
+    type: data
+    label: fictionpublications
