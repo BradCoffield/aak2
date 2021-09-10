@@ -6,7 +6,9 @@ layout: body
   <div class="container container--medium">
     <header class="page__header">
       <h1 class="page__title">{{ page.title }}</h1>
-      <img src="{{page.header_image}}" alt="{{page.header_image_alt}}" />
+ 
+      <div class="svg-hr"></div>
+      <!-- <img src="{{page.header_image}}" alt="{{page.header_image_alt}}" /> -->
     </header>
     <div class="page__body text-block mt-4">
       {% for section in page.sections %} {% assign component = section.type |
