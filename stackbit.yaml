@@ -1782,4 +1782,7 @@ models:
       - name: format
         type: enum
         options:
-          - Print
+          - label: Print
+            value: Print
+          - label: ''
+            value: ''
