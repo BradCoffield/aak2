@@ -1761,4 +1761,4 @@ models:
             - publication
   fictionpublications:
     type: data
-    label: fictionpublications
+    label: Fiction Publications
