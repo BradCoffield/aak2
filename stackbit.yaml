@@ -1763,7 +1763,7 @@ models:
     type: data
     label: Fiction Publications
     description: JSON of fiction publications
-    folder: fictionpubs
+    folder: ' '
     fields:
       - name: title
         type: string
