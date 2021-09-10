@@ -2,6 +2,7 @@
 title: Fiction Publications
 header_image: /images/about.jpg
 header_image_alt: null
+dataTitle: fiction
 sections:
   - type: publications_list_section
     title: Fiction
@@ -15,7 +16,7 @@ sections:
         url: lorem-ipsum
         pubTitle: lorem-ipsum
         date: lorem-ipsum
-        format: Print
+ 
 seo:
   title: Fiction
   description: A listing of Ashley Kunsa's fiction publications

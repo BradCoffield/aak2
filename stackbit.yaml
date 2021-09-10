@@ -1759,3 +1759,30 @@ models:
           models:
             - publications_list_section
             - publication
+  fictionpublications:
+    type: data
+    label: Fiction Publications
+    description: JSON of fiction publications
+    file: fiction_publications.json
+    fields:
+      - name: title
+        type: string
+        label: Title
+        required: true
+      - name: url
+        type: string
+        label: URL
+      - name: pubTitle
+        type: string
+        label: Publication Title
+        required: true
+      - name: date
+        type: string
+        label: Date
+      - name: format
+        type: enum
+        options:
+          - Print
+          - Web
+        required: true
+        description: Web or Print

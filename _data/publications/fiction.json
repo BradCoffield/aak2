@@ -1,0 +1,18 @@
+{
+    "fiction": [
+        {
+            "title": "title",
+            "url": "",
+            "pubTitle": "publication title",
+            "date": "feb 1 2020",
+            "format": "Print"
+        },
+        {
+            "title": "sstitle",
+            "url": "https://www.google.com",
+            "pubTitle": "pssublication title",
+            "date": "fessb 1 2020",
+            "format": "Web"
+        }
+    ]
+}

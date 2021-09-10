@@ -6,11 +6,21 @@
   <div class="actions grdGrid -middle -center">
  
 <!-- <h2>Title:  {{section.title}}</h2> -->
-    		{% for publication in section.publications %}
+    		<!-- {% for publication in section.publications %}
+			
+			{% include publication.html section=section %}
+		{% endfor %} -->
+
+    {% assign typeName = page.dataTitle %}
+       		{% for publication in site.data.publications[typeName][typeName] %}
 			
 			{% include publication.html section=section %}
 		{% endfor %}
-    
+
  
+ 
+
+
+
   </div>
 </section>
