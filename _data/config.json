@@ -1,28 +1,38 @@
 {
-    "title": "Stackbit Personal Theme",
+    "title": "Ashley Kunsa Ph.D.",
     "layout_type": "full-width",
     "style": "classic",
     "palette": "yellow",
     "mode": "light",
     "base_font": "serif",
     "header": {
-        "title": "Personal Theme",
+        "title": "Ashley Kunsa",
         "logo": "images/logo.svg",
-        "logo_alt": "Alyvia logo",
+        "logo_alt": "",
         "has_primary_nav": true,
         "primary_nav_links": [
             {
-                "label": "FAQ",
-                "url": "/faq",
+                "label": "Creative Writing",
+                "url": "/creative-writing",
                 "style": "link"
             },
             {
-                "label": "About",
+                "label": "Teaching and Scholarship",
+                "url": "/teaching-and-scholarship",
+                "style": "link"
+            },
+            {
+                "label": "Editing Services",
+                "url": "/editing-services",
+                "style": "link"
+            },
+            {
+                "label": "About Me",
                 "url": "/about",
                 "style": "link"
             },
             {
-                "label": "Contact me",
+                "label": "Contact",
                 "url": "/contact",
                 "style": "link"
             }
@@ -69,7 +79,7 @@
                 "style": "link"
             }
         ],
-        "has_social": true,
+        "has_social": false,
         "social_links": [
             {
                 "label": "Twitter",
@@ -108,7 +118,7 @@
                 "new_window": true
             }
         ],
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=personal&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>"
+        "content": "Site by <a href='https://www.studio303.dev'>Studio303</a>"
     },
     "domain": "https://majestic-rabbit-8c416.netlify.app"
 }

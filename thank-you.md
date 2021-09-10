@@ -1,5 +1,6 @@
 ---
 title: Thank You
+permalink: /thank-you
 sections:
   - type: hero_section
     title: Thank You!

@@ -2,20 +2,12 @@
 title: Fiction Publications
 header_image: /images/about.jpg
 header_image_alt: null
+permalink: /creative-writing/fiction
 dataTitle: fiction
 sections:
   - type: publications_list_section
     title: Fiction
-    publications:
-      - title: EYYY TITLEee
-        pubTitle: lorem-ipsum
-        date: lorem-ipsum
-        format: Web
-        url: 'https://www.google.com'
-      - title: lorem-ipsum
-        url: lorem-ipsum
-        pubTitle: lorem-ipsum
-        date: lorem-ipsum
+ 
  
 seo:
   title: Fiction

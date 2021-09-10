@@ -25,16 +25,14 @@ sections:
     title: My Work
     subtitle: What I do
     features:
-      - title: Content Creation
-        subtitle: 'Website, blog, social media and more.'
+      - title: Creative Writing
+        # subtitle: 'Fiction, Poetry, and Creative Nonfiction.'
         content: >-
-          I will handle content writing for your digital assets, from
-          newsletters and emails, to Facebook and Google campaigns, whitepapers,
-          case studies and product descriptions. No job is too big or small!
+          Write some stuff here. Qui quis velit exercitation proident dolore in magna enim. Consectetur in excepteur pariatur aliqua duis. Nostrud minim qui dolor reprehenderit nisi id et laboris officia mollit adipisicing. 
         actions:
-          - label: See Writing Samples
+          - label: Explore My Writing
             url: /faq
-            style: primary
+            style: secondary
             has_icon: true
             icon: arrow-right
             icon_position: right
@@ -42,12 +40,10 @@ sections:
         image_alt: Feature 1 illustration
         media_position: right
         media_width: sixty
-      - title: Online Store Management
-        subtitle: 'Product updates, inventory and pricing.'
+      - title: Teaching &amp; Scholarship
+        # subtitle: 'Product updates, inventory and pricing.'
         content: >-
-          Managing an online business is a full-time job. I will make sure your
-          products look great, sound great, and sell more on your choice of
-          ecommerce platform.
+             Write some stuff here. Qui quis velit exercitation proident dolore in magna enim. Consectetur in excepteur pariatur aliqua duis. Nostrud minim qui dolor reprehenderit nisi id et laboris officia mollit adipisicing. 
         actions:
           - label: Learn More
             url: /about
@@ -59,16 +55,14 @@ sections:
         image_alt: Feature 2 illustration
         media_position: right
         media_width: sixty
-      - title: Technical Content
-        subtitle: 'Your products and services, at scale.'
+      - title: Editing Services
+        # subtitle: 'Your products and services, at scale.'
         content: >-
-          I will dive into the ins and outs of your product or service and make
-          sure the right information is communicated throughout your
-          documentation, pamphlets, manuals and technical documents.
+         Write some stuff here. Qui quis velit exercitation proident dolore in magna enim. Consectetur in excepteur pariatur aliqua duis. Nostrud minim qui dolor reprehenderit nisi id et laboris officia mollit adipisicing. 
         actions:
           - label: See Past Work
-            url: /faq
-            style: primary
+            url: /Learn More
+            style: secondary
             has_icon: true
             icon: arrow-right
             icon_position: right
@@ -124,17 +118,17 @@ sections:
   
     
 seo:
-  title: Stackbit Personal Theme
-  description: The preview of the Personal theme
+  title: Ashley Kunsa, Ph.D.
+  description: Homepage for Ashley Kunsa, Ph.D.  that shares her creative writing, academic work, and editing services.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Personal Theme
+      value: Ashley Kunsa, Ph.D.
       keyName: property
     - name: 'og:description'
-      value: The preview of the Personal theme
+      value: Homepage for Ashley Kunsa, Ph.D.  that shares her creative writing, academic work, and editing services.
       keyName: property
     - name: 'og:image'
       value: images/personal-preview.png
@@ -143,9 +137,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Personal Theme
+      value: Ashley Kunsa, Ph.D.
     - name: 'twitter:description'
-      value: The preview of the Personal theme
+      value: Homepage for Ashley Kunsa, Ph.D.  that shares her creative writing, academic work, and editing services.
     - name: 'twitter:image'
       value: images/personal-preview.png
       relativeUrl: true

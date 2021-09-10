@@ -8,8 +8,12 @@ layout: body
 			<h1 class="page__title">{{ page.title }}</h1>
 			<div class="svg-hr"></div>
 		</header>
-		<div class="page__body text-block mt-5">
-			{{ content }}
+		<div class="page__body text-block mt-4">
+			{% for section in page.sections %}
+  
+  {% assign component = section.type | append: ".html" %}
+  {% include {{ component }} section=section site=site %}
+{% endfor %}
 		</div>
 	</div>
 </article>
