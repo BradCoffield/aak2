@@ -1,6 +1,6 @@
 {
     "title": "Stackbit Personal Theme",
-    "layout_type": "boxed",
+    "layout_type": "full-width",
     "style": "classic",
     "palette": "yellow",
     "mode": "light",
