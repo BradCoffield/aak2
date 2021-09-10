@@ -1765,5 +1765,5 @@ models:
     description: JSON of fiction publications
     folder: fictionpubs
     fields:
-      - name: ''
+      - name: title
         type: string
