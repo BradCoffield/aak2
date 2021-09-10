@@ -2,15 +2,15 @@
  
  {% if publication.format == "Web" %} <p class="hindent publication">  <span
  
-    >&ldquo;<a href="{{publication.url}}">{{publication.title}}.</a
-    >&quot; <em>{{publication.pubTitle}}</em> ({{publication.date}}). {{publication.format}}.</span
+    >&ldquo;<a target="_blank" href="{{publication.url}}">{{publication.title}}.</a
+    >&quot; <em>{{publication.pubTitle}}</em> {{publication.volumeIssue}} ({{publication.date}}). {{publication.format}}.</span
   ></p>{% endif %}
 
  
 {% if publication.format == "Print" %} <p class="hindent publication">  <span
  
     >&ldquo;{{publication.title}}.</a
-    >&quot; <em>{{publication.pubTitle}}.</em> ({{publication.date}}). {{publication.format}}.</span
+    >&quot; <em>{{publication.pubTitle}}.</em> {{publication.volumeIssue}} ({{publication.date}}). {%if publication.pageRange != ""%}{{publication.pageRange}}.{%endif%} {{publication.format}}.</span
   ></p>{% endif %}
 
 

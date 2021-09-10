@@ -45,37 +45,33 @@
         "logo_alt": "",
         "has_primary_nav": true,
         "primary_nav_links": [
-            {
-                "label": "About",
-                "url": "/about",
-                "style": "link"
-            },
-            {
-                "label": "FAQ",
-                "url": "/faq",
-                "style": "link"
-            },
-            {
-                "label": "Contact me",
-                "url": "/contact",
-                "style": "link"
-            }
+        {
+            "label": "Creative Writing",
+            "url": "/creative-writing",
+            "style": "link"
+        },
+        {
+            "label": "Teaching and Scholarship",
+            "url": "/teaching-and-scholarship",
+            "style": "link"
+        },
+        {
+            "label": "Editing Services",
+            "url": "/editing-services",
+            "style": "link"
+        }
+   
         ],
         "has_secondary_nav": true,
         "secondary_nav_links": [
             {
-                "label": "Style Guide",
-                "url": "/style-guide",
+                "label": "About Me",
+                "url": "/about",
                 "style": "link"
             },
             {
-                "label": "Terms & Conditions",
-                "url": "/terms-conditions",
-                "style": "link"
-            },
-            {
-                "label": "Privacy Policy",
-                "url": "/privacy-policy",
+                "label": "Contact",
+                "url": "/contact",
                 "style": "link"
             }
         ],
