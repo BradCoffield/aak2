@@ -7,7 +7,7 @@
     "base_font": "serif",
     "header": {
         "title": "Ashley Kunsa",
-        "logo": "images/logo.svg",
+        "logo": "",
         "logo_alt": "",
         "has_primary_nav": true,
         "primary_nav_links": [
@@ -41,8 +41,8 @@
         "has_anncmnt": false
     },
     "footer": {
-        "logo": "images/logo.svg",
-        "logo_alt": "Alyvia logo",
+        "logo": "",
+        "logo_alt": "",
         "has_primary_nav": true,
         "primary_nav_links": [
             {

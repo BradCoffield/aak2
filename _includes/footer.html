@@ -16,13 +16,12 @@
 	{% if has_logo or site.data.config.footer.has_primary_nav or site.data.config.footer.has_secondary_nav or site.data.config.footer.has_tertiary_nav %}
 	<div class="site-footer__nav py-5 py-md-6">
 		<div class="container">
-			<div class="grid{% if has_logo == false %} justify-md-center{% endif %}">
-				{% assign has_logo_is_not_empty = has_logo | is_not_empty %}
-				{% if has_logo_is_not_empty %}
-				<a class="site-footer__logo cell-12 cell-md-5 my-4" href="{{ '/' | relative_url }}">
-					<img src="{{ site.data.config.footer.logo | relative_url }}" alt="{{ site.data.config.header.logo_alt }}" />
+			<div class="grid  justify-md-center ">
+		 
+				<a class="navbar__title h4 cell-12 cell-md-5 my-4" href="{{ '/' | relative_url }}" style="align-self: center;">
+					{{site.title}}
 				</a>
-				{% endif %}
+			 
 				{% if site.data.config.footer.has_primary_nav and site.data.config.footer.primary_nav_links %}
 				<div class="site-footer__menu cell-12 cell-md my-3 my-md-4">
 					{% assign primary_nav_title_is_not_empty = site.data.config.footer.primary_nav_title | is_not_empty %}
